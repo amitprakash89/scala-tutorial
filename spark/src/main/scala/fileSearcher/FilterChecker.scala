@@ -7,6 +7,6 @@ class FilterChecker(filter: String) {
     for (fileObject <- fileObjects
         if (matches(fileObject.name)))
       yield fileObject
-}
+} 
 
 }
