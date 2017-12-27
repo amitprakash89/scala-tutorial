@@ -9,7 +9,7 @@ class FilterCheckerTests extends FlatSpec {
 	  val listOfFiles = List(new FileObject("random"), matchingFile)
 	  val matchedFiles = new FilterChecker("match").findMatchedFiles(listOfFiles)
 	  assert(matchedFiles == List(matchingFile))
-	}
+	} 
 	
 	
 }
